@@ -1,0 +1,246 @@
+.box{
+    width: 550px;
+    height: 250px;
+    border: solid 2px #ccc;
+    margin-left: 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #ccc;
+    overflow: hidden;
+
+}
+.pic{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    animation: pic 4s infinite;
+}
+@keyframes pic{
+    0%{top: 0; left: -200px;}
+    20%{top: 0; left: 0;}
+    100%{top: 0; left: 0;}
+}
+
+.offer1{
+    color: red;
+    font-family: sans-serif;
+    font-size: 25px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 40px;
+    
+}
+
+.offer2{
+    color: red;
+    font-family: sans-serif;
+    font-size: 25px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.offer3{
+    color: red;
+    font-family: sans-serif;
+    font-size: 25px;
+    float: left;
+    margin-left: 20px;
+}
+.name{
+    font-family: sans-serif;
+    margin-left: 100px;
+    font-size: 40px;
+    margin-top: -15px;
+    animation: name 4s infinite;
+    position: relative;
+}
+@keyframes name{
+    0%{top: 0; right: -200px;}
+    20%{top: 0; right: 0;}
+    100%{top: 0; right: 0;}
+}
+.rate{
+    margin-left: 240px;
+    font-size: 25px;
+    margin-top: -15px;
+    animation: name 4s infinite;
+    position: relative;
+}
+.btn{
+    border-color: #ccc;
+    background-color: rgb(251, 255, 0);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    float: left;
+    width: 120px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    margin-left: 100px;
+    margin-top: 6px;
+    position: relative;
+    animation: btn 4s infinite;
+}
+@keyframes btn{
+    0%{left: 0; bottom: -200px;}
+    20%{left: 0; bottom: 0;}
+    100%{left: 0; bottom: 0;}
+}
+.box2{
+    width: 720px;
+    height: 480px;
+    border: solid 2px #ccc;
+    margin-left: 610px;
+    box-sizing: border-box;
+    margin-top: -250px;
+    box-shadow: 0 0 20px #ff00ea;
+    overflow: hidden;
+
+}
+.slider{
+   width: 3600px;
+   height: 480px;
+   background-color: blue;
+   animation: slide 10s infinite;
+   position: relative;
+}
+@keyframes slide{
+    0%{top: 0; left: 0;}
+    10%{top: 0; left: 0;}
+    20%{top: 0; left: -720px;}
+    30%{top: 0; left: -720px;}
+    40%{top: 0; left: -1440px;}
+    50%{top: 0; left: -1440px;}
+    60%{top: 0; left: -2160px;}
+    70%{top: 0; left: -2160px;}
+    80%{top: 0; left: -2880px;}
+    90%{top: 0; left: -2880px;}
+    100%{top: 0; left: 0;}
+
+}
+.photos{
+    float: left;
+}
+.progress{
+    width: 550px;
+    height: 200px;
+    border: solid 2px #ccc;
+    margin-top: -200px;
+    margin-left: 30px;
+    box-shadow: 0 0 10px #ccc;
+    box-sizing: border-box;
+}
+.progress1{
+    width: 450px;
+    height: 20px;
+    border: solid 2px #ccc;
+    margin: 20px auto;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+.progress_bar{
+    width: 90%;
+    height: 20px;
+    background-color: red;
+    border-radius: 15px;
+    animation: progress 5s infinite;
+    position: relative;
+}
+@keyframes progress{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.progress2{
+    width: 450px;
+    height: 20px;
+    border: solid 2px #ccc;
+    margin: 20px auto;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+.progress_bar2{
+    width: 80%;
+    height: 20px;
+    background-color: rgb(55, 0, 255);
+    border-radius: 15px;
+    animation: progresss 5s infinite;
+    position: relative;
+}
+@keyframes progresss{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.colorbox{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.colorbox1{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(17, 0, 255);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.html{
+    margin-top: -20px;
+    margin-left: 45px;
+    font-family: sans-serif;
+   font-weight: bold;
+}
+.css{
+    margin-top: -20px;
+    margin-left: 45px;
+    font-family: sans-serif;
+   font-weight: bold;
+}
+.html__{
+    margin-top: -20px;
+    margin-left: 465px;
+    font-family: sans-serif;
+   font-weight: bold;
+}
+
+
+.css__{
+    margin-top: -20px;
+    margin-left: 465px;
+    font-family: sans-serif;
+   font-weight: bold;
+}
+
+
+.footer{
+    width: 1300px;
+    height: 100px;
+    border: solid 2px #ccc;
+    margin-top: 22px;
+    margin-left: 25px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    overflow: hidden;
+    
+}
+
+.milan{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    position: relative;
+    text-align: center;
+    animation: milan 3s infinite;
+    margin-left: 700px;
+}
+@keyframes milan{
+    0%{left: 0; bottom: -500px;}
+    70%{left: 0; bottom: 0;}
+    90%{left: 0; bottom: 0;}
+    100%{left: 0; bottom: -500;}
+}
